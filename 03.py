@@ -44,6 +44,6 @@ with open('director.csv', 'w', newline='', encoding='utf-8') as f:
                     }
                 if director_datas[i]['peopleCd'] in peopleCd_list:
                     continue
-                else:   
+                elif director_datas[i]['repRoleNm'] == '감독':   
                     writer.writerow(director_data_dict)    
                 peopleCd_list.append(director_datas[i]['peopleCd'])   
