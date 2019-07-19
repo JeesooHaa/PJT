@@ -8,7 +8,7 @@
 
 3. [boxoffice.csv](#3-boxoffice.csv)
 
-4. [02.py](#4-02.py)
+4. [02.py](https://github.com/JeesooHaa/PJT/blob/master/README.md#4-02py)
 
 5. [movie.csv](#5-movie.csv)
 
@@ -18,7 +18,7 @@
 
    
 
-### 1 API
+### 1. API
 
 [영화진흥위원회 오픈API](http://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
 
@@ -26,7 +26,7 @@
 
 
 
-###  2 01.py
+###  2. 01.py
 
 ##### '주간/주말 박스오피스'API 에서 박스오피스 정보 수집, boxoffice.csv 생성
 
@@ -72,7 +72,7 @@ with open('boxoffice.csv', 'w', newline='', encoding='utf-8') as f:
 
 
 
-###  3 boxoffice.csv
+###  3. boxoffice.csv
 
 #####  기준일 역순으로 '영화 대표코드', ' 영화명', '누적관객수' 기록
 
@@ -88,7 +88,7 @@ with open('boxoffice.csv', 'w', newline='', encoding='utf-8') as f:
 
 
 
-###  4 02.py
+###  4. 02.py
 
 ##### boxoffice.csv 의 '영화 대표코드'와 '영화 상세정보'API를 이용해 수집한 영화의 상세정보 작성
 
@@ -125,7 +125,7 @@ with open('boxoffice.csv', 'r', newline='', encoding='utf-8') as f:
 
 
 
-### 5 movie.csv
+### 5. movie.csv
 
 ##### '영화 대표코드', '영화명(국문)', '영화명(영문)', '영화명(원문)', '관람등급', '개봉연도', '상영시간', '장르', '감독명' 기록
 
@@ -141,7 +141,7 @@ with open('boxoffice.csv', 'r', newline='', encoding='utf-8') as f:
 
 
 
-### 6 03.py
+### 6. 03.py
 
 ##### movies.csv 의 '감독명', '영화명(국문)'과 '영화인정보'API를 이용해 수집한 영화의 상세정보 작성
 
@@ -169,7 +169,7 @@ with open('boxoffice.csv', 'r', newline='', encoding='utf-8') as f:
 
 
 
-### 7 director.csv
+### 7. director.csv
 
 ##### '영화인 코드', '영화인명', '분야', '필모리스트' 기록
 
