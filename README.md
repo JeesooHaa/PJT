@@ -2,7 +2,7 @@
 
 ##  목차
 
-1. [API](#1.-API)
+1. [API](#1-API)
 
 2. [01.py](#2.-01.py)
 
@@ -18,7 +18,7 @@
 
    
 
-### 1. API
+### 1 API
 
 [영화진흥위원회 오픈API](http://www.kobis.or.kr/kobisopenapi/homepg/main/main.do)
 
