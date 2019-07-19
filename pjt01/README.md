@@ -2,19 +2,19 @@
 
 ##  목차
 
-1. [API](https://github.com/JeesooHaa/PJT/blob/master/README.md#1-API)
+1. [API](https://github.com/JeesooHaa/PJT/blob/master/pjt01#1-API)
 
-2. [01.py](https://github.com/JeesooHaa/PJT/blob/master/README.md#2-01py)
+2. [01.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#2-01py)
 
-3. [boxoffice.csv](https://github.com/JeesooHaa/PJT/blob/master/README.md#3-boxofficecsv)
+3. [boxoffice.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#3-boxofficecsv)
 
-4. [02.py](https://github.com/JeesooHaa/PJT/blob/master/README.md#4-02py)
+4. [02.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#4-02py)
 
-5. [movie.csv](https://github.com/JeesooHaa/PJT/blob/master/README.md#5-moviecsv)
+5. [movie.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#5-moviecsv)
 
-6. [03.py](https://github.com/JeesooHaa/PJT/blob/master/README.md#6-03py)
+6. [03.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#6-03py)
 
-7. [director.csv](https://github.com/JeesooHaa/PJT/blob/master/README.md#7-directorcsv)
+7. [director.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#7-directorcsv)
 
    
 
