@@ -4,17 +4,17 @@
 
 1. [API](#1-API)
 
-2. [01.py](#2.-01.py)
+2. [01.py](#2-01.py)
 
-3. [boxoffice.csv](#3.-boxoffice.csv)
+3. [boxoffice.csv](#3-boxoffice.csv)
 
-4. [02.py](#4.-02.py)
+4. [02.py](#4-02.py)
 
-5. [movie.csv](#5.-movie.csv)
+5. [movie.csv](#5-movie.csv)
 
-6. [03.py](#6.-03.py)
+6. [03.py](#6-03.py)
 
-7. [director.csv](#7.-director.csv)
+7. [director.csv](#7-director.csv)
 
    
 
