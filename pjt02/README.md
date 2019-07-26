@@ -2,11 +2,11 @@
 
 ## 목차
 
-1. API
-2. movie_naver.py
-3. movie_naver.csv
-4. movie_image.py
-5. images
+1. [API](https://github.com/JeesooHaa/PJT/blob/master/pjt02#1-API)
+2. [movie_naver.py](https://github.com/JeesooHaa/PJT/blob/master/pjt02#2-movie_naver.py)
+3. [movie_naver.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt02#3-naver.csv)
+4. [movie_image.py](https://github.com/JeesooHaa/PJT/blob/master/pjt02#4-movie_image.py)
+5. [images](https://github.com/JeesooHaa/PJT/blob/master/pjt02#5-images)
 
 
 
@@ -130,4 +130,4 @@ for movie in movies_naver_list:
 ##### '영화 대표코드'.jpg 저장
 
 * '이웃집 토토로' 는 포스터가 없습니다...
-![poster](./img/poster.png)
+![poster](https://github.com/JeesooHaa/PJT/blob/master/pjt02/img/poster.PNG)
