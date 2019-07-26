@@ -130,4 +130,5 @@ for movie in movies_naver_list:
 ##### '영화 대표코드'.jpg 저장
 
 * '이웃집 토토로' 는 포스터가 없습니다...
+
 ![poster](https://github.com/JeesooHaa/PJT/blob/master/pjt02/img/poster.PNG)
