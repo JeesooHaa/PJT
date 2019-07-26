@@ -3,20 +3,14 @@
 ##  목차
 
 1. [API](https://github.com/JeesooHaa/PJT/blob/master/pjt01#1-API)
-
 2. [01.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#2-01py)
-
 3. [boxoffice.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#3-boxofficecsv)
-
 4. [02.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#4-02py)
-
 5. [movie.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#5-moviecsv)
-
 6. [03.py](https://github.com/JeesooHaa/PJT/blob/master/pjt01#6-03py)
-
 7. [director.csv](https://github.com/JeesooHaa/PJT/blob/master/pjt01#7-directorcsv)
 
-   
+
 
 ### 1. API
 
@@ -92,7 +86,7 @@ with open('boxoffice.csv', 'w', newline='', encoding='utf-8') as f:
 
 ##### boxoffice.csv 의 '영화 대표코드'와 '영화 상세정보'API를 이용해 수집한 영화의 상세정보 작성
 
-* boxoffice.cvs 에서 '영화 대표코드' 받기 
+* boxoffice.csv 에서 '영화 대표코드' 받기 
 ```python
 with open('boxoffice.csv', 'r', newline='', encoding='utf-8') as f:
     reader = csv.DictReader(f)
