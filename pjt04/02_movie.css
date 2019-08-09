@@ -1,0 +1,63 @@
+/* haeder */
+.jumbotron {
+  background-image: url(images/header_background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  text-align: center;
+}
+.jumbotron_text {
+  line-height: 250px;
+  font-family:'Roboto Slab', serif;
+}
+
+/* jumbotron 을 이용하지 않는 방식 */
+/* header {
+  background-image: url(images/header_background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  text-align: center;
+  padding-top: 3.5rem;
+}
+#header_coment {
+  line-height: 250px
+} */
+
+/* 다른 방법? */
+/* element.style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* subtitle */
+#subtitle {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family:'Roboto Slab', serif;
+}
+
+/* movie list */
+.card_box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card-text {
+  margin-bottom: 8px;
+}
+/* .container {
+  display: flex; -ms-flex-align: center;
+} */
+
+/* footer */
+footer {
+  padding: 0px 3rem;
+  bottom: 0px;
+  background-size: cover;
+  background-position: center;
+  line-height: 50px;
+  font-family: 'Slabo 27px', serif;
+}
+*.icon-black {color: black}
