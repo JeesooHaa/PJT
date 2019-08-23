@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}영화 정보 수정 Form{% endblock %}
+
+{% block content %}
+<h1>영화 정보 수정</h1>
+<form action="/movies/{{ movie.pk }}/update/">
+  <label for="title">TITLE</label><br>
+  <input id="title" type="text" name="title" value="{{ movie.title }}"><br>
+  <label for="title_en">TITLE_EN</label><br>
+  <input id="title_en" type="text" name="title_en" value="{{ movie.title_en }}"><br>
+  <label for="audience">audience</label><br>
+  <input id="audience" type="number" name="audience" value="{{ movie.audience }}"><br>  
+  <label for="open_date">open_date</label><br>
+  <input id="open_date" type="date" name="open_date" value="{{ movie.open_date|date:"Y-m-d" }}"><br>
+  {% comment %} <h1>{{ open_date|date:"Y-m-d" }}</h1> {% endcomment %}
+  <label for="genre">genre</label><br>
+  <input id="genre" type="text" name="genre" value="{{ movie.genre }}"><br>
+  <label for="watch_grade">watch_grade</label><br>
+  <input id="watch_grade" type="text" name="watch_grade" value="{{ movie.watch_grade }}"><br>
+  <label for="score">score</label><br>
+  <input id="score" type="number" name="score" value="{{ movie.score }}"><br>
+  <label for="poster_url">poster_url</label><br>
+  <input id="poster_url" type="text" name="poster_url" value="{{ movie.poster_url }}"><br>
+  <label for="description">description</label><br>
+  <textarea id="description" name="description">{{ movie.description }}</textarea><br>
+  <button type="submit">수정하기</button>
+</form>
+{% endblock %}

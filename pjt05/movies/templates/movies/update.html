@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}영화 정보 수정{% endblock %}
+
+{% block content %}
+<h1 class="text-center">영화 정보 수정이 완료되었습니다.</h1>
+<p class="text-center"><a href="/movies/{{ movie.pk }}/">영화 정보 조회</a></p>
+{% endblock %}
