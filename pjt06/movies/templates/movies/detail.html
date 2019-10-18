@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ movie.title }}{% endblock title %}
+
+{% block content %}
+  <h1>{{ movie.title }}</h1>
+  <p>{{ movie.title_en }}</p>
+  <p>{{ movie.audience }}</p>
+  <p>{{ movie.open_date }}</p>
+  <p>{{ movie.watch_grade }}</p>
+  <p>{{ movie.genre }}</p>
+  <p>{{ movie.score }}</p>
+  <p>{{ movie.poster_url }}</p>
+  <p>{{ movie.description }}</p>
+
+  <a href="{% url 'movies:movies' %}">목록</a>
+  <a href="{% url 'movies:update' movie.pk %}">수정</a>
+  <form action="{% url 'movies:delete' movie.pk %}" method="POST">
+    {% csrf_token %}
+    <button type="submit">삭제</button>
+  </form>
+  <hr>
+
+  {% for comment in comments %}
+    <p>{{ comment.pk }}. {{ comment.content }} {{ comment.score }}</p>
+  {% endfor %}
+
+  <form action="{% url 'movies:reviews' movie.pk %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Comment Create</button>
+  </form>
+{% endblock %}
