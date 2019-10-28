@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}상세보기( ͡° ͜ʖ ͡°){% endblock title %}
+
+
+{% block content %}
+<h3>좋아하는 영화 목록</h3>
+{% for movie in movies  %}
+<p>{{ movie.title }}의 평점: {{ movie.score }}점</p>
+{% endfor %}
+
+<hr>
+<h3>코멘트를 단 영화 목록</h3>
+
+{% for comment in comments %}
+<p>{{ comment.movie.title }}</p>
+
+{% if comment_pk == comment.pk %}
+<form action="{% url 'movies:commentupdate' comment.pk %}" method="POST">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">[수정]</button>
+</form>
+{% else %}
+{% comment %} <form action="{% url 'accounts:detail' user.pk %}" method="POST">
+{% csrf_token %} {% endcomment %}
+<p>{{ comment.content }}</p>
+<p>{{ comment.score }}</p>
+<form action="{% url 'movies:commentupdate' comment.pk %}">
+<button type="submit">[수정하기]</button>
+</form>
+{% endif %}
+<hr>
+
+{% endfor %}
+
+{% endblock content %}
